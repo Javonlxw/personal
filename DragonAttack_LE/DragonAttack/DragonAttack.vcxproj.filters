@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GSM">
+      <UniqueIdentifier>{dbdeeee2-cc0e-4d85-9995-918511548eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stage_Manager">
+      <UniqueIdentifier>{f9a15247-687e-4dfe-bda9-f4b840582b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Engine">
+      <UniqueIdentifier>{d8bbb3f9-c976-41eb-a794-861df370a973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Engine\Graphics">
+      <UniqueIdentifier>{e176bdf0-7e18-4a62-96eb-42f81b3d6aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Engine\Physics">
+      <UniqueIdentifier>{de411064-5122-4c98-8e3e-748230df4ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Engine\Collision">
+      <UniqueIdentifier>{3dd68db6-1683-4850-bbb0-590c92a1f26c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{03819ec4-fc32-48bd-9a7b-73e07770de0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Engine\Graphics\Camera">
+      <UniqueIdentifier>{b62e694b-6d6a-4e71-a09f-08c60f4cf7b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_States">
+      <UniqueIdentifier>{a766146d-0ce9-4df6-9c95-84818cffa906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_States\Stage">
+      <UniqueIdentifier>{80570fdd-e615-452c-b710-941df2f0340e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Characters">
+      <UniqueIdentifier>{7d773d2a-7a0d-405a-aa4c-f5c041d6ed8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Characters\Dragon">
+      <UniqueIdentifier>{cc552bcf-5f79-4dd7-9ad6-e7bf913f7d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Characters\AI">
+      <UniqueIdentifier>{ff9dd1ce-73e4-4b4b-bf20-a27855b55dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Engine\Graphics\Transform">
+      <UniqueIdentifier>{3a089aca-4d95-4ba5-9c51-b6103b1e0a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Engine\Graphics\Render">
+      <UniqueIdentifier>{c63a84e0-f7ff-4305-8d52-52c1b55485b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Engine\Graphics\Create_Object">
+      <UniqueIdentifier>{3467da14-fb08-40bc-9ceb-5116b61252ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Engine\Graphics\Sprite">
+      <UniqueIdentifier>{1694990d-96fd-4045-8b6a-a2d165e38f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Object">
+      <UniqueIdentifier>{7ed013fb-794f-4e74-a3c4-0e2112c0d4c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Characters\AI\Bosses">
+      <UniqueIdentifier>{be277fad-ce0b-4ace-a03d-c5e4c3b84a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projectile">
+      <UniqueIdentifier>{7501f761-b932-4c65-a786-5406bf4ff5a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game_Engine\Graphics\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Input_Handler.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateManager.cpp">
+      <Filter>GSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Menu.cpp">
+      <Filter>Game_States</Filter>
+    </ClCompile>
+    <ClCompile Include="Grunt.cpp">
+      <Filter>Characters\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Characters.cpp">
+      <Filter>Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Game_Engine\Graphics\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Game_Engine\Graphics\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Create_Object.cpp">
+      <Filter>Game_Engine\Graphics\Create_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Game_Engine\Graphics\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="King_Arthur.cpp">
+      <Filter>Characters\AI\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Game_Engine\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Game_Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragon.cpp">
+      <Filter>Characters\Dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_States.cpp">
+      <Filter>Characters\AI\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="Merlin.cpp">
+      <Filter>Characters\AI\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="f_sqrt.cpp">
+      <Filter>Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Lancelot.cpp">
+      <Filter>Characters\AI\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision_update.cpp">
+      <Filter>Game_Engine\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="LE.cpp">
+      <Filter>Game_States</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Game_Engine\Graphics\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Input_Handler.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateList.h">
+      <Filter>GSM</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateManager.h">
+      <Filter>GSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Menu.h">
+      <Filter>Game_States</Filter>
+    </ClInclude>
+    <ClInclude Include="Characters.h">
+      <Filter>Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Grunt.h">
+      <Filter>Characters\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Game_Engine\Graphics\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Game_Engine\Graphics\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Create_Object.h">
+      <Filter>Game_Engine\Graphics\Create_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Game_Engine\Graphics\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_States.h">
+      <Filter>Characters\AI\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="King_Arthur.h">
+      <Filter>Characters\AI\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Game_Engine\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Game_Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>Characters\Dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Merlin.h">
+      <Filter>Characters\AI\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="f_sqrt.h">
+      <Filter>Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Lancelot.h">
+      <Filter>Characters\AI\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision_update.h">
+      <Filter>Game_Engine\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="LE.h">
+      <Filter>Game_States</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
