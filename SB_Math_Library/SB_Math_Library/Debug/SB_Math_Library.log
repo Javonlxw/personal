@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\javon lee\documents\digipen\gam300\sb_math_library\sb_math_library\sbmath.h(25): warning C4005: 'INT_MIN': macro redefinition
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\limits.h(34): note: see previous definition of 'INT_MIN'
+  SB_Math_Library.vcxproj -> C:\Users\Javon Lee\Documents\DigiPen\GAM300\SB_Math_Library\Debug\SB_Math_Library.exe

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Math_Library">
+      <UniqueIdentifier>{50ab5ff5-05c2-436a-b162-c170ff233bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math_Library\Vectors">
+      <UniqueIdentifier>{891cb945-0802-4343-84c1-a3f36ef2d6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math_Library\Basic_Math">
+      <UniqueIdentifier>{fa9b198e-5728-4a72-9686-a484b13954ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math_Library\Test_Maths">
+      <UniqueIdentifier>{0d4cf060-64d1-4600-88bd-19f86cbf0dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math_Library\Vectors\SIMD">
+      <UniqueIdentifier>{bd14e94e-5dcc-4795-91cc-c28142abf69a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Math_Library\Test_Maths</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SBMath.h">
+      <Filter>Math_Library\Basic_Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SIMDVec.h">
+      <Filter>Math_Library\Vectors\SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="SIMDVec4.h">
+      <Filter>Math_Library\Vectors\SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec3.h">
+      <Filter>Math_Library\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec4.h">
+      <Filter>Math_Library\Vectors</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
